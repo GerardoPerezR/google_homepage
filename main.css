@@ -24,10 +24,13 @@ main {
 .logo {
     display: flex;
     flex-direction: row;
-    margin-top: 240px;
-    width: 100%;
+    margin-top: 180px;
+    margin-bottom:40px;
+    width: auto;
+    max-width: 100%;
     background-color: transparent;
     justify-content:space-around;
+    
 }
 
 body {
@@ -150,7 +153,7 @@ li {
 }
  .products {
     
-    padding: 8px;
+    padding: 8px; 
     margin-top: 16px;
     background-color: transparent;
     height: 24px;
@@ -189,11 +192,21 @@ li {
 
  .footer-links {
                    
-                    padding: 16px;
+                    padding: 14px;
  }
 
+ .nav-links {
+        padding:2px;
+ }
  @media screen  and (max-width: 920px) {
      footer {
                 flex-direction: column;
      }
+ }
+
+ .signin   {
+    background-color:#449df7;
+    border-radius: 52pxpx;
+    padding: 10px;
+    border-color: transparent;
  }
